@@ -1,0 +1,48 @@
+body {
+    font-family: monospace;
+    font-size: 16;
+}
+
+div.container {
+    /*background-color: #eee;*/
+    margin: 40px auto;
+    width: 100%;
+    overflow: auto;
+    max-width: 960px;
+}
+
+ul.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li.nav {
+    float: left;
+}
+
+li.nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li.nav a:hover {
+    background-color: #111;
+}
+
+div.description {
+    float: left;
+    width: 60%;
+}
+
+div.img {
+    float: left;
+    width: 40%;
+    text-align: center;
+}
