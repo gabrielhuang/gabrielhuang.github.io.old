@@ -9,6 +9,7 @@ div.container {
     width: 100%;
     overflow: auto;
     max-width: 960px;
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.2), 0 3px 3px 0 rgba(0, 0, 0, 0.19);
 }
 
 ul.nav {
@@ -45,4 +46,19 @@ div.img {
     float: left;
     width: 40%;
     text-align: center;
+}
+
+div.jumbo {
+    position: relative;
+    height: 280px;
+}
+
+div.jumbo p {
+    font-size: 40px;
+    color: white;
+    z-index: 100;
+    position: absolute;
+    font-weight: bold;
+    bottom: 0px;
+    left: 50px;
 }
