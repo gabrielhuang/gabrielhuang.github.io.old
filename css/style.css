@@ -61,4 +61,5 @@ div.jumbo p {
     font-weight: bold;
     bottom: 0px;
     left: 50px;
+    text-shadow: 2px 2px 4px #000;
 }
