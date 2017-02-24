@@ -51,6 +51,7 @@ div.img {
 div.jumbo {
     position: relative;
     height: 280px;
+    overflow: hidden;
 }
 
 div.jumbo p {
